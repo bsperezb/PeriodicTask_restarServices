@@ -1,6 +1,6 @@
 import time
 import schedule
-from .src.periodic_task import  restartServices
+from src.periodic_task import  restartServices
 
 # Schedule Time
 schedule.every(5).seconds.do(restartServices)

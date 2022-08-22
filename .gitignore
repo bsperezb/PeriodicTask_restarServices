@@ -1,2 +1,4 @@
 env/
 notas.txt
+nohup.out
+**/__pycache__
